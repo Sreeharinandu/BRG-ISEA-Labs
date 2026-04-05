@@ -67,7 +67,7 @@ Cloud has lower upfront cost but recurring monthly charges.
 ### Screenshot
 ![TCO](screenshots/session2/tco.png)
 ### Reflection
-I learned that cloud computing is more flexible and cost-efficient for small-scale systems.
+Cloud computing significantly reduces upfront cost compared to on-premise infrastructure. Over a 3-year period, cloud solutions provide better cost efficiency and scalability.
 ---
 # Session 2b: Cloud & Scripting
 ## Cloud Setup (AWS EC2)
