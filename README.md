@@ -62,3 +62,32 @@ Cloud has lower upfront cost but recurring monthly charges.
 ### Reflection
 I learned that cloud computing is more flexible and cost-efficient for small-scale systems.
 ---
+# Session 2b: Cloud & Scripting
+## Cloud Setup (AWS EC2)
+I created a cloud-based Ubuntu server using AWS EC2.
+This allows remote access to a virtual server environment.
+### Screenshot
+![AWS Instance](screenshots/session2/aws-instance.png)
+---
+## SSH Connection
+I connected to the server using SSH, which allows secure remote access.
+### Command Used
+ssh -i key.pem ubuntu@public-ip
+### Screenshot
+![SSH](screenshots/session2/aws-ssh.png)
+---
+## Bash Scripting
+I created a simple bash script to display server status and time.
+### Script
+#!/bin/bash
+echo "Server is running"
+echo "Current date and time:"
+date
+### Screenshot
+![Script](screenshots/session2/script-output.png)
+---
+## Reflection
+In this session, I learned how to create and access a cloud server using AWS.
+I also learned how to automate tasks using bash scripting.
+This is important for system administration and DevOps roles.
+---
