@@ -28,7 +28,6 @@ Commands used:
 ### Reflection
 In this lab, I learned how to install Ubuntu and use basic Linux commands. It was my first time using a virtual machine, and I understood how file creation and navigation works in Linux.
 ---
-s
 
 # Session 1b: Exploring Linux
 ## Services
