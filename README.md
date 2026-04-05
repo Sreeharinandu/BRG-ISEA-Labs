@@ -23,6 +23,7 @@ Commands used:
 In this lab, I learned how to install Ubuntu and use basic Linux commands. It was my first time using a virtual machine, and I understood how file creation and navigation works in Linux.
 ---
 s
+
 # Session 1b: Exploring Linux
 ## Services
 I used systemctl to view and check system services.
@@ -116,4 +117,58 @@ The SSL setup failed because a valid domain name is required.
 SSL certificates require a valid domain name (e.g., example.com). Since I used a placeholder name, the certificate could not be issued.
 ### Reflection
 This helped me understand that SSL is dependent on proper domain configuration and cannot be applied directly to an IP address.
+---
+# Session 3b: Automation
+## Script Creation
+I created a bash script to automate system updates and log the output into a file.
+### Script
+```bash
+#!/bin/bash
+echo "Update started at $(date)" >> /home/ubuntu/update.log
+sudo apt update >> /home/ubuntu/update.log
+echo "Update finished at $(date)" >> /home/ubuntu/update.log
+```
+---
+## Script Testing
+I executed the script manually to verify that it runs correctly and logs the output.
+### Command Used
+```bash
+./auto.sh
+cat /home/ubuntu/update.log
+```
+### Screenshot
+
+![Script Test](screenshots/session3/script-test.png)
+
+---
+## Cron Job Setup
+I configured a cron job to automate the execution of the script every minute.
+### Command
+```bash
+crontab -e
+```
+### Cron Entry
+```bash
+* * * * * /home/ubuntu/auto.sh
+```
+### Screenshot
+
+![Cron Setup](screenshots/session3/cron.png)
+
+---
+## Log Output Verification
+After waiting for a few minutes, I checked the log file to confirm that the script was running automatically.
+### Command
+
+```bash
+cat /home/ubuntu/update.log
+```
+### Screenshot
+
+![Cron Log](screenshots/session3/cron-log.png)
+
+---
+## Reflection
+In this session, I learned how to automate repetitive server tasks using cron jobs.
+This is an important concept in system administration and DevOps, as it allows tasks such as updates, backups, and monitoring to run automatically without manual intervention.
 ---
