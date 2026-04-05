@@ -212,3 +212,15 @@ SHOW DATABASES;
 In this session, I learned how to install and manage a database server.
 This helped me understand how backend services store and manage data in real-world systems.
 ---
+
+# Challenges Faced
+
+* AWS SSH connection timeout due to incorrect security group settings
+* Apache server not accessible due to blocked port 80
+* SSL configuration failed due to missing domain
+
+# Solutions
+
+* Configured correct inbound rules in AWS
+* Verified services using systemctl and curl
+* Understood dependency of SSL on domain names
