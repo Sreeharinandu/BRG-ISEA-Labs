@@ -8,7 +8,7 @@ Install Ubuntu and practice basic Linux commands.
 ### Ubuntu Installation
 I installed Ubuntu using VirtualBox and successfully booted into the system.
 ### Screenshot
-![Virtual box settings](screenshots/session1/Virtual box settings.png)
+![Virtual box settings](https://github.com/Sreeharinandu/BRG-ISEA-Labs/blob/499cb3bd7eed445ebd18a37e12c6091bc0a5f394/screenshots/session1/Virtual%20box%20settings.png)
 
 ![Ubuntu desktop](screenshots/session1/Ubuntu desktop.png)
 
