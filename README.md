@@ -22,7 +22,7 @@ Commands used:
 ### Screenshot
 ![Linux Commands](screenshots/session1/Terminal with commands+output2.png)
 
-![Linux Commands](screenshots/session1/Terminal with commands+output1.png)
+![Linux Commands](https://github.com/Sreeharinandu/BRG-ISEA-Labs/blob/main/screenshots/session1/Terminal%20with%20commands%2Boutput1.png)
 
 ---
 ### Reflection
