@@ -172,3 +172,37 @@ cat /home/ubuntu/update.log
 In this session, I learned how to automate repetitive server tasks using cron jobs.
 This is an important concept in system administration and DevOps, as it allows tasks such as updates, backups, and monitoring to run automatically without manual intervention.
 ---
+# Session 4: Additional Server Service (MySQL)
+## Objective
+Install and configure an additional server service.
+---
+## MySQL Installation
+I installed MySQL server using the package manager.
+### Command
+sudo apt install mysql-server -y
+---
+## Service Status
+I verified that the MySQL service is running.
+### Command
+sudo systemctl status mysql
+### Screenshot
+
+![MySQL Status](screenshots/session4/mysql-status.png)
+
+---
+
+## Database Operations
+I accessed MySQL and created a test database.
+### Commands
+SHOW DATABASES;
+CREATE DATABASE labtest;
+SHOW DATABASES;
+### Screenshot
+
+![MySQL Commands](screenshots/session4/mysql-commands.png)
+
+---
+## Reflection
+In this session, I learned how to install and manage a database server.
+This helped me understand how backend services store and manage data in real-world systems.
+---
