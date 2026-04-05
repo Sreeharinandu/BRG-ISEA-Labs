@@ -20,7 +20,7 @@ Commands used:
 * mkdir labtest
 * touch file1.txt
 ### Screenshot
-![Linux Commands](screenshots/session1/Terminal with commands+output2.png)
+![Linux Commands](https://github.com/Sreeharinandu/BRG-ISEA-Labs/blob/c3268ccddcd827081ab0d9cacb93e0291c1d0e4b/screenshots/session1/Terminal%20with%20commands%2Boutput2.png))
 
 ![Linux Commands](https://github.com/Sreeharinandu/BRG-ISEA-Labs/blob/main/screenshots/session1/Terminal%20with%20commands%2Boutput1.png)
 
