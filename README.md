@@ -91,3 +91,29 @@ In this session, I learned how to create and access a cloud server using AWS.
 I also learned how to automate tasks using bash scripting.
 This is important for system administration and DevOps roles.
 ---
+# Session 3a: DNS & SSL
+## DNS
+I used nslookup to check how domain names resolve to IP addresses.
+### Command
+nslookup google.com
+### Screenshot
+![DNS](screenshots/session3/dns.png)
+---
+## Web Server Setup
+I installed Apache web server and accessed it using the public IP.
+### Screenshot
+![Apache](screenshots/session3/apache.png)
+---
+## SSL Setup Attempt
+I attempted to configure SSL using Certbot.
+### Command
+sudo certbot --apache
+### Result
+The SSL setup failed because a valid domain name is required.
+### Screenshot
+![SSL Error](screenshots/session3/ssl-error.png)
+### Explanation
+SSL certificates require a valid domain name (e.g., example.com). Since I used a placeholder name, the certificate could not be issued.
+### Reflection
+This helped me understand that SSL is dependent on proper domain configuration and cannot be applied directly to an IP address.
+---
