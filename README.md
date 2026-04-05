@@ -34,3 +34,55 @@ In this lab, I learned how to install Ubuntu and use basic Linux commands. It wa
 
 ---
 s
+# Session 1b: Exploring Linux
+
+## Services
+
+I used systemctl to view and check system services.
+
+### Commands
+
+systemctl list-units --type=service
+sudo systemctl status ssh
+
+### Screenshot
+
+![Services](screenshots/session1/services.png)
+
+---
+
+## Permissions
+
+I explored file permissions using ls -l and changed permissions using chmod.
+
+### Commands
+
+ls -l
+chmod 755 file1.txt
+
+### Screenshot
+
+![Permissions](screenshots/session1/permissions.png)
+
+---
+
+## Searching Files
+
+I used find and grep to search for files and content.
+
+### Commands
+
+find /home -name file1.txt
+grep -r "test" /home
+
+### Screenshot
+
+![Search](screenshots/session1/search.png)
+
+---
+
+## Reflection
+
+In this session, I learned how Linux manages services, file permissions, and file searching. These are important for system administration and security.
+
+---
