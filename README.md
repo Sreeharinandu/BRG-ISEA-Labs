@@ -10,7 +10,7 @@ I installed Ubuntu using VirtualBox and successfully booted into the system.
 ### Screenshot
 ![Virtual box settings](https://github.com/Sreeharinandu/BRG-ISEA-Labs/blob/499cb3bd7eed445ebd18a37e12c6091bc0a5f394/screenshots/session1/Virtual%20box%20settings.png)
 
-![Ubuntu desktop](screenshots/session1/Ubuntu desktop.png)
+![Ubuntu desktop](https://github.com/Sreeharinandu/BRG-ISEA-Labs/blob/146d79be72d3b1caea2a14114e307a8b729478f9/screenshots/session1/Ubuntu%20desktop.png)
 
 ---
 ### Linux Commands
