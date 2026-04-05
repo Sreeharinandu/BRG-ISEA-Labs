@@ -24,7 +24,7 @@ Commands used:
 
 ### Screenshot
 ![Linux Commands](screenshots/session1/Terminal with commands+output2.png)
-![Linux Commands](screenshots/session1/terminal with commands+output2.png)
+![Linux Commands](screenshots/session1/Terminal with commands+output1.png)
 
 ---
 
